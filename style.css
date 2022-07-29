@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto&display=swap');
 body{
     margin: 0;
-    background-color: #3EB489
+    background-color: #3EA289
 }
 
 .navbar{
@@ -24,7 +24,7 @@ body{
     margin-top: 8px;
     display: inline-block;
     text-decoration: none;
-    color: #3EB489;
+    color: #3EA289;
 }
 .redirect-options {
     padding-left: 2%;
@@ -46,4 +46,22 @@ body{
     font-family: "Roboto";
     color:#DAE3E5;
     font-size: 30px;
+}
+.languages {
+    font-family: "Roboto";
+    color: #DAE3E5;
+    font-size: 40px;
+    text-align:center;
+}
+.lang-img {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right:auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.lang-imgs {
+    padding-left: 2rem;
 }
