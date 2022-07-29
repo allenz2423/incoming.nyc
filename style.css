@@ -30,15 +30,19 @@ body{
     padding-left: 2%;
 }
 .selfie-img {
-    margin-top: 80px;
+    margin-top: 50px;
     display: block;
     border: #DAE3E5 solid 5px;
+    border-radius: 50px;
     margin-left:auto;
     margin-right: auto;
     text-align:center;
 }
 .info {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    max-width: 60%;
     font-family: "Roboto";
     color:#DAE3E5;
     font-size: 30px;
