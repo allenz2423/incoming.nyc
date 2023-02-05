@@ -87,6 +87,12 @@ a {
     vertical-align: middle;
     line-height: 100px;
 }
+@media screen and (max-width:490px) {
+    .footer-font {
+        font-size: 20px;
+    }
+    
+}
 .footer-text {
     padding-left: 15px;
     margin: 0;
@@ -106,7 +112,7 @@ a {
     margin-right: 3vw;
     max-width: 35vw;
 }
-div {
+#project-container > div {
     overflow:auto;
 }
 .project-text {
@@ -120,15 +126,19 @@ div {
     margin-bottom: 3vh;
 }
 hr {
+    text-align:center;
     width:30%
 }
 @media screen and (max-width: 717px)  { 
-    #projects-container {
+    #container {
         margin-top: calc(2vw + 140px);
     }
 }
 @media screen and (min-width: 718px) {
-    #projects-container {
+    #container {
         margin-top: calc(2vw + 100px);
     }
+}
+.contact-spacing {
+    text-align: center;
 }
